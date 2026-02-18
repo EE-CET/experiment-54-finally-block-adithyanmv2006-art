@@ -7,7 +7,7 @@ public class FinallyDemo {
 		int b=sc.nextInt();
 		try{
 			int res=a/b;
-			System.out.println(res);
+			System.out.println("Result: "+res);
 		}
 		catch(ArithmeticException e){
 			System.out.println("Error: / by zero");
